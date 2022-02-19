@@ -166,9 +166,6 @@ p {
     padding: .8rem 0;
     color: var(--red-orange);
 }
-/* .skills-container li:hover {
-    text-decoration: underline;
-} */
 .about-container {
     grid-column: 5 / 12;
     padding-left: 2rem;
