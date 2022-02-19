@@ -36,9 +36,9 @@ h5 {
     font-size: 1.5rem;
 }
 h6 {
-    font-size: 1.25rem;
+    font-size: .8rem;
     font-weight: 700;
-    font-variant: small-caps;
+    text-transform: uppercase;
 }
 p {
     color: var(--almost-black);
@@ -135,7 +135,7 @@ p {
     height: auto;
 }
 /* About styles */
-.about {
+#about {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 580px;
@@ -177,7 +177,7 @@ p {
     color: var(--red-orange);
 }
 @media only screen and (max-width: 1140px) and (min-width: 540px) {
-    .about {
+    #about {
         grid-template-rows: 320px 720px;
     }
     .about-container {
@@ -197,7 +197,7 @@ p {
     }
 }
 @media only screen and (max-width: 540px) {
-    .about {
+    #about {
         grid-template-rows: 360px 960px;
     }
     .about-container {
@@ -219,7 +219,7 @@ p {
     }
 }
 /* My Work section */
-.myWork {
+#myWork {
     background-color: var(--beige);
     padding: 3rem 0 8rem 0;
 }
