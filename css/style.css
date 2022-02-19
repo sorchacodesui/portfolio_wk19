@@ -125,6 +125,11 @@ p {
         height: 580px;
     }
 }
+@media only screen and (max-width: 540px) {
+    .hero-btn {
+        font-weight: 300;
+    }
+}
 .portrait {
     width: 100%;
     height: auto;
@@ -307,7 +312,6 @@ p {
 .more-studies p {
     color: var(--red-orange);
     font-family: 'Montserrat';
-
 }
 @media only screen and (max-width: 768px) {
     .card-list {
@@ -319,6 +323,9 @@ p {
     }
     .more-studies {
         margin-top: 4rem;
+    }
+    .more-studies p {
+        font-weight: 300;
     }
 }
 /* footer styles */
