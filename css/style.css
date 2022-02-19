@@ -9,18 +9,13 @@
     font-size: 100%;
     scroll-behavior: smooth;
 }
-/* @font-face {
-    font-family: 'Italiana';
-    src: url("/font/Italiana-Regular.ttf") format("truetype");
-    font-weight: 25;
-} */
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans serif;
 }
 h1 {
-    /* font-family: 'Italiana'; */
-    font-size: 2.4rem; /* 54pt*/
+    font-size: 2.4rem;
     font-weight: 800;
 }
 h2 {
@@ -198,10 +193,13 @@ p {
 }
 @media only screen and (max-width: 540px) {
     .about {
-        grid-template-rows: 360px 880px;
+        grid-template-rows: 360px 960px;
     }
     .about-container {
         grid-column: 2 / 12;
+    }
+    .about-container p {
+        font-weight: 300;
     }
     .skills-container {
         grid-column: 2 / 12;
@@ -293,10 +291,6 @@ p {
     border-bottom: 1.2px solid var(--white);
     margin-bottom: 1rem;
 }
-
-/* .card-btn {
-
-} */
 .more-studies {
     border: 1px solid var(--red-orange);
     border-radius: 40px;
@@ -320,7 +314,7 @@ p {
         grid-template-rows: repeat(3, 480px);
         grid-gap: 40px 20px;
     }
-    .card-1, .card-2, .card-3 {
+    .card1, .card2, .card3 {
         grid-column: 2 / 5;
     }
     .more-studies {
